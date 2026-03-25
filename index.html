@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Atualiza a página a cada 10 segundos -->
+    <meta http-equiv="refresh" content="10">
+
     <title>Missão Catequese - Diocese de São Miguel Paulista</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        :root { --primary-color: #2c3e50; --accent-color: #d4af37; }
+        /*:root { --primary-color: #2c3e50; --accent-color: #d4af37; }  */ 
+        :root { --primary-color: #2c3e50;  }   
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fcfcfc; }
         .navbar { background-color: var(--primary-color); }
-        .hero-section { background: #f8f9fa; padding: 80px 0; border-bottom: 5px solid var(--accent-color); }
+        .hero-section { background: #f8f9fa; padding: 20px 0; border-bottom: 5px solid var(--accent-color); }
         .card-link:hover { transform: translateY(-5px); transition: 0.3s; }
         .post-card { border-left: 5px solid var(--accent-color); }
         
         /* Estilo opcional para a imagem do símbolo na lista */
         .simbolo-catequese-lista {
-            max-width: 80px; /* Largura máxima da imagem */
+            max-width: 480px; /* Largura máxima da imagem */
             height: auto; /* Mantém a proporção */
             display: block;
             margin-bottom: 15px; /* Espaço abaixo da imagem */
         }
         /* Novo estilo para a imagem do topo ****************************************/
          .simbolo-catequese-hero { 
-            width: 100px; /* 10x o tamanho original de 80px */
+            width: 300px; /* 10x o tamanho original de 80px */
             max-width: 100%; /* Impede que a imagem saia da tela no celular */
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
+        /* Estilo para a linha separadora */
+        hr {
+            border: none;           /* Remove a borda padrão */
+            height: 12px;            /* Espessura da linha */
+            background-color: rgb(0, 0, 255); /* Cor da linha */
+            margin: 5px 0;         /* Espaçamento acima e abaixo */
+         }
     </style>
 </head>
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
     <div class="container">
         <a class="navbar-brand fw-bold" href="index.html"><span style="color: var(--accent-color);">†</span> Missão Catequese</a>
@@ -47,47 +57,78 @@
         </div>
     </div>
 </nav>
-
+<!-- inicio primeiro titulo-->
 <header class="hero-section text-center">
     <div class="container">
         <!--<img src="img/adult1.png" alt="Símbolo da Catequese" class="simbolo-catequese-lista img-fluid mt-2">-->
         <img src="img/cat_adultos.png" alt="Símbolo da Catequese" class="simbolo-catequese-hero img-fluid mt-2 mx-auto d-block">
-        <span class="badge rounded-pill mb-3 px-3 py-2" style="background-color: var(--accent-color);
-        color: #000;">Ano Catequético 2026</span>
+        <!--<span class="badge rounded-pill mb-3 px-3 py-2" style="background-color: var(--accent-color);
+        color: #000;">Ano Catequético 2026</span>-->
         <!--<h1 class="display-4 fw-bold mb-3">Bem-vindos à nossa Missão Acolhida</h1>
         <p class="lead text-dark mb-4">Espaço de formação e partilha da Diocese de São Miguel Paulista.</p>-->
         <h1 class="display-4 fw-bold mb-3">Catequista,</h1>
         <p class="lead text-dark mb-4">Você é uma pérola especial e um tesouro para Deus e sua amada Igreja. A sua singular vocação foi gerada no coração de Deus Pai, para que pudesse chegar aos corações dos seus filhos e filhas com a mensagem da vida  
 Jesus Cristo.Espaço de formação e partilha da Diocese de São Miguel Paulista.</p>
         <p class="lead text-dark mb-4">Espaço de formação e partilha.</p>
-        <a href="catequese.html" class="btn btn-primary btn-lg px-4" style="background-color: var(--primary-color); border: none;">Ver Últimos Encontros</a>
+        <a href="catequese.html" class="btn btn-primary btn-lg px-4" style="background-color: var(--primary-color); border: none;">Clique Aqui Temas e Conhecimentos</a>
     </div>
+<!-- fim primeiro titulo-->
+
+<!-- inicio segundo titulo-->
+    <div class="container">
+        <!--<img src="img/adult1.png" alt="Símbolo da Catequese" class="simbolo-catequese-lista img-fluid mt-2">-->
+        <!--<img src="img/cat_adultos.png" alt="Símbolo da Catequese" class="simbolo-catequese-hero img-fluid mt-2 mx-auto d-block">
+        <span class="badge rounded-pill mb-3 px-3 py-2" style="background-color: var(--accent-color);
+        color: #000;">Ano Catequético 2026</span>
+        <h1 class="display-4 fw-bold mb-3">Bem-vindos à nossa Missão Acolhida</h1>
+        <p class="lead text-dark mb-4">Espaço de formação e partilha da Diocese de São Miguel Paulista.</p>-->
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        
+        <hr> <!-- Linha separadora -->
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        <h2 class="fw-bold mb-4">Segue Novos Assuntos!</h2>
+        <h2 class="display-4 fw-bold mb-3">Assunto.</h2>
+        <p class="lead text-dark mb-4">assunto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, consequuntur. 
+            Autem id explicabo enim placeat, maiores ratione fugiat optio voluptatem quis nobis nihil, 
+            ab consequuntur esse aspernatur voluptatibus iure adipisci.</p>
+        <!--<p class="lead text-dark mb-4">Espaço de formação e partilha.</p>-->
+        <a href="catequese.html" class="btn btn-primary btn-lg px-4" style="background-color: var(--primary-color); border: none;">Clique Aqui.</a>
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        <br><!-- espaço do primeiro titulo para o segundo titulo-->
+        <hr> <!-- Linha separadora -->
+    </div>
+    <!-- fim segundo titulo-->
 </header>
 <main class="container my-5">
     <section id="ultimos-encontros" class="mb-5">
-        <h2 class="text-center mb-5 fw-bold">Últimos Encontros</h2>
+        <h2 class="text-center mb-5 fw-bold">Nossos Encontros</h2>
         <div class="row justify-content-center">
             <div class="col-md-8">
                     <div class="card mb-4 post-card border-0 shadow-sm">
                     <div class="card-body">
                         <!--primeiro encontro-->
                         <span class="badge bg-warning text-dark mb-2">07 Março, 2026</span>
-                        <img src="img/pri_encont.jpg" alt="Primeiro Encontro" class="simbolo-catequese-lista img-fluid mt-2">
+                        <img src="img/qu_conhecer.jpg" alt="Primeiro Encontro" class="simbolo-catequese-lista img-fluid mt-2">
                         <h3 class="h4">Primeiro Encontro </h3>
                         <h3 class="h4">Tema Quero te Conhecer e Ano Liturgico</h3>
                         <p>Tivemos o Primeiro Encontro com o Tema Quero te Conhecer, foi feito uma apresentação de todos os Participantes e Catequistas .</p>
                         <a href="catequese.html" class="btn btn-link p-0 text-decoration-none" style="color: var(--primary-color);">Clique aqui para ver mais →</a>
                     </div>
                     <div class="card mb-4 post-card border-0 shadow-sm">
-                    <div class="card-body">
-                        <!--primeiro encontro-->
+                    <!--segundo encontro-->
+                        <div class="card-body">
                         <span class="badge bg-warning text-dark mb-2">21 Março, 2026</span>
-                        <img src="img/seg_encont.jpg" alt="Segundo Encontro" class="simbolo-catequese-lista img-fluid mt-2">
+                        <img src="img/santa missa.jpg" alt="Segundo Encontro" class="simbolo-catequese-lista img-fluid mt-2">
                         <h3 class="h4">Segundo Encontro</h3>
                         <h3 class="h4">Tema Missa</h3>
                         <p>No Segundo Encontro Falamos mais sobre um tema Proposto num Video com uma Palestra contando a importãncia da Santa Missa.</p>
                         <a href="catequese.html" class="btn btn-link p-0 text-decoration-none" style="color: var(--primary-color);">Clique aqui para ver mais →</a>
                     </div>
+                    <!--terceiro encontro                    
                     <div class="card-body">
                         <span class="badge bg-warning text-dark mb-2">07 Março, 2026</span>
                         <img src="img/adult1.png" alt="Símbolo da Catequese" class="simbolo-catequese-lista img-fluid mt-2">
@@ -95,6 +136,7 @@ Jesus Cristo.Espaço de formação e partilha da Diocese de São Miguel Paulista
                         <p>Início do nosso ano catequético com muita alegria, oração e apresentação da caminhada.</p>
                         <a href="catequese.html" class="btn btn-link p-0 text-decoration-none" style="color: var(--primary-color);">Ler resumo completo →</a>
                     </div>
+                    terceiro encontro
                     <div class="card mb-4 post-card border-0 shadow-sm">
                     <div class="card-body">
                         <span class="badge bg-warning text-dark mb-2">07 Março, 2026</span>
@@ -103,6 +145,7 @@ Jesus Cristo.Espaço de formação e partilha da Diocese de São Miguel Paulista
                         <p>Início do nosso ano catequético com muita alegria, oração e apresentação da caminhada.</p>
                         <a href="catequese.html" class="btn btn-link p-0 text-decoration-none" style="color: var(--primary-color);">Ler resumo completo →</a>
                     </div>
+                    quarto encontro
                     <div class="card-body">
                         <span class="badge bg-warning text-dark mb-2">07 Março, 2026</span>
                         <img src="img/adult1.png" alt="Símbolo da Catequese" class="simbolo-catequese-lista img-fluid mt-2">
@@ -110,6 +153,7 @@ Jesus Cristo.Espaço de formação e partilha da Diocese de São Miguel Paulista
                         <p>Início do nosso ano catequético com muita alegria, oração e apresentação da caminhada.</p>
                         <a href="catequese.html" class="btn btn-link p-0 text-decoration-none" style="color: var(--primary-color);">Ler resumo completo →</a>
                     </div>
+                    quinto encontro
                     <div class="card-body">
                         <span class="badge bg-warning text-dark mb-2">07 Março, 2026</span>
                         <img src="img/adult1.png" alt="Símbolo da Catequese" class="simbolo-catequese-lista img-fluid mt-2">
@@ -117,6 +161,7 @@ Jesus Cristo.Espaço de formação e partilha da Diocese de São Miguel Paulista
                         <p>Início do nosso ano catequético com muita alegria, oração e apresentação da caminhada.</p>
                         <a href="catequese.html" class="btn btn-link p-0 text-decoration-none" style="color: var(--primary-color);">Ler resumo completo →</a>
                     </div>
+                    -->
                 </div>
                 </div>
         </div>
