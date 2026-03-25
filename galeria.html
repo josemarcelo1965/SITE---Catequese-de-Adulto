@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Missão Catequese</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #d4af37; }
+        .navbar { background-color: var(--primary-color); }
+        .img-galeria { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; }
+    </style>
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">† Missão Catequese</a>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="catequese.html">Encontros</a></li>
+                <li class="nav-item"><a class="nav-link active" href="galeria.html">Galeria</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="py-5 bg-white text-center border-bottom">
+    <h1 class="fw-bold">Momentos Especiais</h1>
+    <p class="text-muted">Registros da nossa caminhada de fé.</p>
+</header>
+
+<main class="container my-5">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <img src="https://via.placeholder.com/400x300?text=Foto+Encontro+1" class="img-galeria shadow-sm border">
+        </div>
+        <div class="col-md-4">
+            <img src="https://via.placeholder.com/400x300?text=Foto+Encontro+2" class="img-galeria shadow-sm border">
+        </div>
+        <div class="col-md-4">
+            <img src="https://via.placeholder.com/400x300?text=Foto+Encontro+3" class="img-galeria shadow-sm border">
+        </div>
+    </div>
+</main>
+
+<footer class="bg-dark text-light py-4 text-center">
+    <p class="mb-0 small">Diocese de São Miguel Paulista</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
